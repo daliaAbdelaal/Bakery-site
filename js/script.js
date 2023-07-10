@@ -18,7 +18,8 @@ $(window).scroll(function(){
         {
                 $('.navbar').css({'background-color':'#fff','transition':'.4s all','box-shadow': '0 13px 8px -10px #0000001a'});
                 $('.navbar-brand img').attr('src','images/bakery-color.png');
-                $('.nav-link').css({'color':'#999'})
+                $('.nav-link').css({'color':'#999'});
+                $('.navbar-toggler-icon i').css({'color':'#8e7754'})
                 // $('.nav-link').not('.active>.nav-link').hover(function(){
                 //         $(this).css({'color':'#111'})
                 // },function(){
@@ -32,6 +33,7 @@ $(window).scroll(function(){
                 $('.navbar-brand img').attr('src','images/bakery-light-1.png');
             
                 $('.nav-link').css({'color':'#fff'})
+                $('.navbar-toggler-icon i').css({'color':'#fff'})
                 // $('.nav-link').not('.active>.nav-link').hover(function(){
                 //         $(this).css({'color':'#8e7754'})
                 // },function(){
